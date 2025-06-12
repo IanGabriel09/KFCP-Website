@@ -1,0 +1,59 @@
+:root {
+    --theme-color: #2C347F;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+/* Index */
+.hero-section {
+    height: 90vh;
+}
+
+.core-bordered {
+    background-color: #2C347F !important;
+}
+
+
+
+
+
+/* Custom reusable styles */
+.custom-box-shadow {
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px !important;
+}
+.bg-theme {
+    background-color: var(--theme-color) !important;
+}
+.btn-theme {
+    background-color: var(--theme-color) !important;
+    color: #fff !important;
+    transition: 0.5s ease-out !important;
+}
+.btn-theme:hover {
+    background-color: #4753bb !important;
+}
+.btn-theme-outline {
+    background-color: transparent !important;
+    color: var(--theme-color) !important;
+    border: 1px solid var(--theme-color) !important;
+    transition: 0.5s ease-out !important;
+}
+.btn-theme-outline:hover {
+    background-color: var(--theme-color) !important;
+    color: #fff !important;
+    border-color: var(--theme-color) !important;
+}
